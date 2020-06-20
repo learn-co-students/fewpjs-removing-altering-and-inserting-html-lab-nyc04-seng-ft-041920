@@ -2,21 +2,15 @@ let element = document.querySelector("main#main")
 element.remove("main#main")
 
 
-
+let newHeader = document.createElement('h1')
+newHeader.id = "victory"
 //   has a 'newHeader' variable that points to node 'h1#victory':
 
 
-let newHeader = document.createElement('h1')
-newHeader.id = "victory"
-newHeader.innerHTML = "YOUR-NAME is the champion"
+newHeader.innerHTML = "YOUR-NAME is the champion"// has a 'newHeader' variable that points to node 'h1#victory' with "YOUR-NAME is the champion" inside:
 
 
 
-// 4) index.html
-// after index.js is processed
-//   has a 'newHeader' variable that points to node 'h1#victory' with "YOUR-NAME is the champion" inside:
-
-// // Write your code here!
 
 // //
 // let element = document.createElement('div') //create DOM Elements Programmatically
